@@ -14,6 +14,7 @@ if uploaded_file is not None:
     # Save uploaded video temporarily
     tfile = NamedTemporaryFile(delete=False)
     tfile.write(uploaded_file.read())
+    tfile.close() 
 
     # Open video
     cap = cv2.VideoCapture(tfile.name)
