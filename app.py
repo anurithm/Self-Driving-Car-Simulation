@@ -8,7 +8,7 @@ st.title("Self-Driving Car Simulation 🚗")
 st.write("Upload a road video and simulate lane detection and steering logic.")
 
 # Upload video
-uploaded_file = st.file_uploader("Choose a video...", type=[r"/Users/anu/Downloads/vecteezy_view-along-the-way-on-road-1081-from-nan-province-to-bo_7223764.mp4","avi"])
+uploaded_file = st.file_uploader("Choose a video...", type=["mp4","avi"])
 
 if uploaded_file is not None:
     # Save uploaded video temporarily
