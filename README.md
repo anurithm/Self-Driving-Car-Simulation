@@ -1,6 +1,9 @@
 # self-driving-car-simulation
 🚗 Self-Driving Car Simulation using Computer Vision
 
+## live demo 📎
+https://anurithm-self-driving-car-simulation-app-ekzhku.streamlit.app/
+
 ## ⚡ Project Overview
 This project simulates a basic self-driving car using computer vision techniques. 
 It focuses on **lane detection**, **region of interest (ROI) selection**, and **steering logic** to demonstrate vehicle navigation using video input.
